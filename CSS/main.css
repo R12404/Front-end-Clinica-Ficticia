@@ -1,0 +1,193 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    border: 0.5px solid #78c6a3;
+    background: linear-gradient(#78c6a3, #14746f);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.icon-logout {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.icon-logout i {
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.main-container {
+    background: radial-gradient(white, lightgray);
+    text-align: center;
+    width: 75%;
+    height: 610px;
+    border-radius: 15px 0px 15px 0px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    margin: 20px 10px;
+}
+
+.main-container h2 {
+    text-shadow: 2px 2px 2px white;
+    color: black;
+    text-transform: uppercase;
+}
+
+section {
+    float: left;
+    border-radius: 10px 0px 10px 0px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    margin: 10px 5px 10px 25px;
+    width: 45%;
+}
+
+.patient-description {
+    width: 94%;
+    float: left;
+}
+
+.data-form {
+    margin: 1px;
+    text-align: left;
+    width: 40%;
+}
+
+.comments-form {
+    margin: 20px;
+    text-align: left;
+    width: 96%;
+    height: 20%;
+}
+
+.comments-form .comment-element {
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-container .data-form label {
+    margin: 0px 10px;
+    color: black;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.main-container .data-form input {
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 190%;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border: none;
+    color: black;
+}
+
+nav {
+    float: right;
+    width: 20%;
+    margin: 15px 20px 0 15px;
+    border-radius: 10px 0 10px 0;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    margin: 20px 2px;
+    background: linear-gradient(#78c6a3, #14746f);
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 10px 0 10px 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+nav a:hover {
+    box-shadow: 0 2px 0px 0px black;
+}
+
+.calendar {
+    border-radius: 10px 0px 10px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 22%;
+    height: 330px;
+    position: absolute;
+    top: 400px;
+    right: 15px;
+    text-align: center;
+    background: radial-gradient(whitesmoke, #34a0a4);
+    box-shadow: 1px 0px 4px 0px rgba(27, 5, 5, 0.7);
+}
+
+.calendar h2 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px gainsboro;
+}
+
+.days {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+}
+
+.first-day {
+    grid-column-start: 3;
+}
+
+.day-name {
+    background: #eee;
+    font-weight: bold;
+}
+
+#days-number {
+    text-align: right;
+    margin: 12px;
+}
+
+#days-number:hover {
+    background: radial-gradient(#52b69a, #34a0a4);
+    padding: 5px;
+    border-radius: 100%;
+}
+
+footer {
+    clear: both;
+    height: 60px;
+    padding: 1px;
+    text-align: center;
+    border: 0.4px solid rgba(7, 59, 76, 0.2);
+    background: linear-gradient(#78c6a3, #14746f);
+}
+
+.foot {
+    float: left;
+    width: 100%;
+    margin: 15px;
+    border: none;
+}
+
+.foot a {
+    margin: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+.foot a:hover {
+    text-decoration: overline;
+}

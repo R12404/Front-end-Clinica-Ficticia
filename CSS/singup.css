@@ -1,0 +1,52 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#78c6a3, #14746f);
+    background-repeat: no-repeat;
+}
+
+.singup-container {
+    width: 400px;
+    margin: 10px auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.singup-container h2 {
+    text-align: center;
+    margin: 0 0px 30px;
+    padding: 0;
+    font-size: 30px;
+    color: rgba(245, 245, 245, 0.8);
+    text-shadow: 2px 2px 2px #073b4c;
+}
+
+.singup-container .parts label {
+    color: whitesmoke;
+}
+
+.singup-container .parts input {
+    width: 100%;
+    padding: 10px 0;
+    color: whitesmoke;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-bottom: 5px;
+}
+
+.singup-container .parts input[type="submit"] {
+    border: none;
+    background-color: #073b4c;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-top: 50px;
+    height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
